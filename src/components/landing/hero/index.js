@@ -22,7 +22,7 @@ const LandingHero = () => {
           across better, and faster.
         </p>
         <div className={styles.cta_wrapper}>
-          <button className={styles.cta_button}>Get started</button>
+          <button className={styles.cta_button}>Request a demo</button>
         </div>
       </div>
     </div>

@@ -13,11 +13,11 @@ const Header = () => {
           <li className={styles.menu_item}>
             <p>About</p>
           </li>
-          <li className={styles.menu_item}>
+          {/* <li className={styles.menu_item}>
             <p>Documentation</p>
-          </li>
+          </li> */}
           <li className={`${styles.menu_item} ${styles.menu_cta}`}>
-            <p>Get started</p>
+            <p>Request a demo</p>
           </li>
         </ul>
       </div>
