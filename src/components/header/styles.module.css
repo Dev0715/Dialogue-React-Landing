@@ -11,9 +11,10 @@
   display: flex;
   align-items: center;
   padding: 8px;
-  background-color: rgba(102, 102, 102, 0.2);
-  backdrop-filter: blur(48px);
   border-radius: 1000px;
+  border: 1px solid var(--Meta-Default-Neutral-400, #D8D8D8);
+  background: radial-gradient(802.64% 478.25% at 16.69% 317.36%, rgba(255, 255, 255, 0.48) 0%, rgba(153, 153, 153, 0.48) 100%);
+  backdrop-filter: blur(62px);
   color: #666666;
   cursor: pointer;
 }
@@ -21,8 +22,8 @@
 .logo_wrapper {
   display: flex;
   align-items: center;
-  padding: 0px 24px 0px 24px;
-  gap: 8px;
+  padding: 0px 32px 0px 24px;
+  gap: 12px;
 }
 
 .logo_text {
@@ -35,6 +36,7 @@
 .splitter_vertical {
   height: 100%;
   width: 1px;
+  margin: 0px 20px 0px 0px;
   background-color: #D8D8D8;
 }
 

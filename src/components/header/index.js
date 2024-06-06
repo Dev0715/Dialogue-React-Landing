@@ -8,12 +8,16 @@ const Header = () => {
           <img src="/images/logo.png" alt="logo" />
           <p className={styles.logo_text}>Dialogue</p>
         </div>
-        <div className={styles.logo_vertical}></div>
+        <div className={styles.splitter_vertical}></div>
         <ul className={styles.menu}>
-          <li className={styles.menu_item}>About</li>
-          <li className={styles.menu_item}>Documentation</li>
+          <li className={styles.menu_item}>
+            <p>About</p>
+          </li>
+          <li className={styles.menu_item}>
+            <p>Documentation</p>
+          </li>
           <li className={`${styles.menu_item} ${styles.menu_cta}`}>
-            Get started
+            <p>Get started</p>
           </li>
         </ul>
       </div>
