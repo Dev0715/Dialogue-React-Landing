@@ -28,6 +28,7 @@
 
 .logo_text {
   font-size: 22px;
+  line-height: 40px;
   font-weight: 500;
   letter-spacing: -0.01em;
   text-align: left;
@@ -64,17 +65,23 @@
 @media screen and (max-width: 768px) {
   .container {
     box-sizing: border-box;
-    padding: 0px 16px 0px 16px;
+    padding: 0px 24px 0px 24px;
   }
 
   .wrapper {
     box-sizing: border-box;
     justify-content: space-between;
     width: 100%;
+    padding: 4px;
+  }
+
+  .logo_wrapper {
+    padding: 0px 0px 0px 20px;
   }
 
   .logo_text {
     font-size: 16px;
+    line-height: 32px;
   }
 
   .menu_item {
@@ -88,6 +95,8 @@
   .menu_cta {
     display: block;
     font-size: 14px;
-    padding: 0px 24px 0px 24px;
+    line-height: 40px;
+    letter-spacing: 0.14px;
+    padding: 3px 24px 3px 24px;
   }
 }

@@ -25,7 +25,7 @@ const LandingPage = () => {
       image_description: "Interactive knowledge network graphs",
       title: "Find people with complimentary skillsets and expertise",
       description:
-        "Dialogue consults the latest research and publications. See how others are talking about similar ideas and concepts. Never loose sight of the big picture.",
+        "Dialogue surface unforeseen connections between ideas. Learn what others have to say about subjects your interested in. Never loose sight of the big picture.",
     },
   ];
 
