@@ -1,3 +1,4 @@
+import Finisher from "../components/landing/finisher";
 import LandingHero from "../components/landing/hero";
 import Service from "../components/landing/service";
 import styles from "./styles.module.css";
@@ -24,6 +25,7 @@ const LandingPage = () => {
         title="Find previously unforeseen connections between ideas"
         description="Dialogue consults the latest research and publications. See how others are talking about similar ideas and concepts. Never loose sight of the big picture."
       />
+      <Finisher />
     </div>
   );
 };
