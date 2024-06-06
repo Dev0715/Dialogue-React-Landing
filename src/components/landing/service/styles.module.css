@@ -21,7 +21,7 @@
   line-height: 44px;
   letter-spacing: 0.01em;
   text-align: center;
-  background: radial-gradient(circle, #7C7C7C, #666666);
+  background: radial-gradient(118.5% 772.61% at 45.66% 117.9%, #7C7C7C 0%, #666666 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   background-clip: text;
   color: transparent;
 }

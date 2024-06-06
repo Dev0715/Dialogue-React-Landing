@@ -9,8 +9,9 @@ const LandingHero = () => {
           src="/images/hero-background.png"
           alt="hero-background"
         />
-        <div className={styles.gradient_layer}></div>
-        <div className={styles.gradient_layer}></div>
+        <div className={styles.gradient_layer_left}></div>
+        <div className={styles.gradient_layer_right}></div>
+        <div className={styles.gradient_layer_full}></div>
       </div>
       <div className={styles.content_wrapper}>
         <p className={styles.title}>

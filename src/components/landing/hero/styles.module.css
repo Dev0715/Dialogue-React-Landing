@@ -16,13 +16,31 @@
   object-fit: cover;
 }
 
-.gradient_layer {
+.gradient_layer_left {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 18.48%, #FFFFFF 100%);
+}
+
+.gradient_layer_right {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 18.48%, #FFFFFF 100%);
+}
+
+.gradient_layer_full {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 8.12%, #FFFFFF 82.85%);
 }
 
 .content_wrapper {
@@ -40,7 +58,7 @@
   line-height: 88px;
   letter-spacing: -0.01em;
   text-align: center;
-  background: radial-gradient(circle, #7C7C7C, #666666);
+  background: radial-gradient(118.5% 772.61% at 45.66% 117.9%, #7C7C7C 0%, #666666 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   background-clip: text;
   color: transparent;
 }
