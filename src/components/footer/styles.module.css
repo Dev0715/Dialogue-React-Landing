@@ -30,6 +30,16 @@
   color: #666666;
 }
 
+@media screen and (max-width: 1024px) {
+  .description {
+    display: none;
+  }
+
+  .description_designed {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .container {
     display: none;

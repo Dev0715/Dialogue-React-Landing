@@ -27,6 +27,25 @@
   color: #999999;
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    padding: 19px 26px 28px 26px;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .description {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 36px;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .container {
     width: 100%;

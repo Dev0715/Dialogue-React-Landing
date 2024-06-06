@@ -10,7 +10,9 @@ const Footer = () => {
       <p className={styles.description}>
         A new standard for academic and creative expression
       </p>
-      <p className={styles.description}>Designed with love by Objects.cx</p>
+      <p className={`${styles.description} ${styles.description_designed}`}>
+        Designed with love by Objects.cx
+      </p>
     </div>
   );
 };
