@@ -30,6 +30,7 @@
 @media screen and (max-width: 640px) {
   .container {
     width: 100%;
+    padding: 19px 26px 28px 26px;
   }
 
   .title {
@@ -38,6 +39,8 @@
   }
 
   .description {
+    width: 100%;
+    box-sizing: border-box;
     font-size: 16px;
     line-height: 28px;
   }
