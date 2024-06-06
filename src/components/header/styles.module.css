@@ -61,7 +61,7 @@
   border-radius: 100px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .container {
     box-sizing: border-box;
     padding: 0px 16px 0px 16px;

@@ -26,3 +26,19 @@
   text-align: center;
   color: #999999;
 }
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
