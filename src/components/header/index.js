@@ -1,18 +1,20 @@
-import "./styles.css";
+import styles from "./styles.module.css";
 
 const Header = () => {
   return (
-    <div className="header-container">
-      <div className="header-wrapper">
-        <div className="header-logo-wrapper">
+    <div className={styles.container}>
+      <div className={styles.wrapper}>
+        <div className={styles.logo_wrapper}>
           <img src="/images/logo.png" alt="logo" />
-          <p className="logo-text">Dialogue</p>
+          <p className={styles.logo_text}>Dialogue</p>
         </div>
-        <div className="splitter-vertical"></div>
-        <ul className="header-menu">
-          <li className="header-menu-item">About</li>
-          <li className="header-menu-item">Documentation</li>
-          <li className="header-menu-item header-menu-cta">Get started</li>
+        <div className={styles.logo_vertical}></div>
+        <ul className={styles.menu}>
+          <li className={styles.menu_item}>About</li>
+          <li className={styles.menu_item}>Documentation</li>
+          <li className={`${styles.menu_item} ${styles.menu_cta}`}>
+            Get started
+          </li>
         </ul>
       </div>
     </div>

@@ -1,4 +1,4 @@
-.header-container {
+.container {
   z-index: 50;
   position: fixed;
   top: 48px;
@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-.header-wrapper {
+.wrapper {
   display: flex;
   align-items: center;
   padding: 8px;
@@ -18,14 +18,14 @@
   cursor: pointer;
 }
 
-.header-logo-wrapper {
+.logo_wrapper {
   display: flex;
   align-items: center;
   padding: 0px 24px 0px 24px;
   gap: 8px;
 }
 
-.logo-text {
+.logo_text {
   margin: 0;
   font-family: "Inter", sans-serif;
   font-size: 22px;
@@ -34,19 +34,19 @@
   text-align: left;
 }
 
-.splitter-vertical {
+.splitter_vertical {
   height: 100%;
   width: 1px;
   background-color: #D8D8D8;
 }
 
-.header-menu {
+.menu {
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.header-menu-item {
+.menu_item {
   list-style-type: none;
   padding: 8px 24px 8px 24px;
   font-family: "Inter", sans-serif;
@@ -57,36 +57,36 @@
   text-align: left;
 }
 
-.header-menu-cta {
+.menu_cta {
   background-color: #F0F0F0;
   border-radius: 100px;
 }
 
 @media screen and (max-width: 640px) {
-  .header-container {
+  .container {
     box-sizing: border-box;
     padding: 0px 16px 0px 16px;
   }
 
-  .header-wrapper {
+  .wrapper {
     box-sizing: border-box;
     justify-content: space-between;
     width: 100%;
   }
 
-  .logo-text {
+  .logo_text {
     font-size: 16px;
   }
 
-  .header-menu-item {
+  .menu_item {
     display: none;
   }
 
-  .splitter-vertical {
+  .splitter_vertical {
     display: none;
   }
 
-  .header-menu-cta {
+  .menu_cta {
     display: block;
     font-size: 14px;
     padding: 0px 24px 0px 24px;
