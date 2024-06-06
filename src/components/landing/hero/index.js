@@ -1,27 +1,27 @@
-import "./styles.css";
+import styles from "./styles.module.css";
 
 const LandingHero = () => {
   return (
-    <div className="landing-hero">
-      <div className="hero-background-wrapper">
+    <div className={styles.container}>
+      <div className={styles.image_wrapper}>
         <img
+          className={styles.image}
           src="/images/hero-background.png"
           alt="hero-background"
-          className="hero-background"
         />
-        <div className="gradient-layer"></div>
-        <div className="gradient-layer"></div>
+        <div className={styles.gradient_layer}></div>
+        <div className={styles.gradient_layer}></div>
       </div>
-      <div className="hero-content-wrapper">
-        <p className="hero-title">
+      <div className={styles.content_wrapper}>
+        <p className={styles.title}>
           A new standard for academic and creative expression
         </p>
-        <p className="hero-description">
+        <p className={styles.description}>
           Document the breadth and depth of your work with AI. Get your ideas
           across better, and faster.
         </p>
-        <div className="hero-cta-wrapper">
-          <button className="hero-cta">Get started</button>
+        <div className={styles.cta_wrapper}>
+          <button className={styles.cta_button}>Get started</button>
         </div>
       </div>
     </div>

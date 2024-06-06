@@ -1,9 +1,9 @@
 import LandingHero from "../components/landing/hero";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 const LandingPage = () => {
   return (
-    <div className="landing-container">
+    <div className={styles.container}>
       <LandingHero />
     </div>
   );
