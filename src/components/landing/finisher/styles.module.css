@@ -1,8 +1,51 @@
 .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.logo_wrapper {
+  z-index: 10;
+  width: 132px;
+  height: 132px;
+  margin-bottom: -66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: radial-gradient(544.05% 544.05% at 357.43% -81.41%, #FFFFFF 0%, #999999 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 0px 7.85px 11.78px -3.93px #00000029;
+}
+
+.image {
+  width: 56%;
+  height: 72%;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 106px;
+  flex-direction: column;
+  align-items: center;
+  background: radial-gradient(95.8% 95.8% at 50.13% -81.92%, #999999 0%, #FFFFFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.title {
+  max-width: 1024px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  background: radial-gradient(118.5% 772.61% at 45.66% 117.9%, #7C7C7C 0%, #666666 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-clip: text;
+  color: transparent;
 }
 
 .perspective_wrapper {
+  margin-top: 80px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
