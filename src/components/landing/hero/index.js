@@ -22,7 +22,12 @@ const LandingHero = () => {
           Document the breadth and depth of your work with AI. Get your ideas
           across better, and faster.
         </p>
-        <a className={styles.cta_link} href={demo_url} target="_blank">
+        <a
+          className={styles.cta_link}
+          href={demo_url}
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className={styles.cta_wrapper}>
             <div className={styles.cta_button}>Request a demo</div>
           </div>
