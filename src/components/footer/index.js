@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo_wrapper}>
-        <img src="/images/logo.png" alt="logo" />
+        <img src="/images/logo.svg" alt="logo" />
         <p className={styles.logo_text}>Dialogue</p>
       </div>
       <p className={styles.description}>

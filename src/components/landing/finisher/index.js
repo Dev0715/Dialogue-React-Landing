@@ -40,7 +40,7 @@ const Finisher = () => {
       <div className={styles.logo_wrapper}>
         <img
           className={styles.image}
-          src="/images/logo-big.png"
+          src="/images/logo-big.svg"
           alt="logo-big"
         />
         <div className={styles.title_wrapper}>

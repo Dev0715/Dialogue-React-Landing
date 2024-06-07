@@ -8,7 +8,7 @@ const Header = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.logo_wrapper}>
-          <img src="/images/logo.png" alt="logo" />
+          <img src="/images/logo.svg" alt="logo" />
           <p className={styles.logo_text}>Dialogue</p>
         </div>
         <div className={styles.splitter_vertical}></div>
