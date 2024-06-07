@@ -47,6 +47,11 @@
   padding: 0;
 }
 
+.menu_link {
+  text-decoration: none;
+  color: #666666;
+}
+
 .menu_item {
   list-style-type: none;
   padding: 8px 24px 8px 24px;
@@ -55,6 +60,11 @@
   line-height: 40px;
   letter-spacing: 0.01em;
   text-align: left;
+}
+
+.menu_item:hover {
+  color: #777777;
+  border-radius: 100px;
 }
 
 .menu_cta {
