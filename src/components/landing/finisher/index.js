@@ -36,27 +36,27 @@ const Finisher = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       <div className={styles.logo_wrapper}>
         <img
           className={styles.image}
           src="/images/logo-big.png"
           alt="logo-big"
         />
-      </div>
-      <div className={styles.wrapper}>
-        <p className={styles.title}>
-          Sharing unique perspectives and methods in a dedicated environment
-        </p>
-        <div className={styles.perspective_wrapper}>
-          {perspectives.map((item, index) => (
-            <Perspective
-              key={index}
-              title={item.title}
-              description={item.description}
-            />
-          ))}
+        <div className={styles.title_wrapper}>
+          <p className={styles.title}>
+            Share unique perspectives and methods in a dedicated environment
+          </p>
         </div>
+      </div>
+      <div className={styles.perspective_wrapper}>
+        {perspectives.map((item, index) => (
+          <Perspective
+            key={index}
+            title={item.title}
+            description={item.description}
+          />
+        ))}
       </div>
     </div>
   );
