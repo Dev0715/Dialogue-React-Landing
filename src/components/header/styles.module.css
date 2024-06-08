@@ -10,7 +10,7 @@
 .wrapper {
   display: flex;
   align-items: center;
-  padding: 8px;
+  padding: 7px;
   border-radius: 1000px;
   border: 1px solid var(--Meta-Default-Neutral-400, #D8D8D8);
   background: radial-gradient(802.64% 478.25% at 16.69% 317.36%, rgba(255, 255, 255, 0.48) 0%, rgba(153, 153, 153, 0.48) 100%);
@@ -59,7 +59,7 @@
   font-weight: 500;
   line-height: 40px;
   letter-spacing: 0.16px;
-  text-align: left;
+  text-align: center;
 }
 
 .menu_item:hover {
