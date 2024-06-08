@@ -19,8 +19,9 @@ const LandingHero = () => {
           A new standard for academic and creative expression
         </p>
         <p className={styles.description}>
-          Document the breadth and depth of your work with AI. Get your ideas
-          across better, and faster.
+          Dialogue helps you document the breadth and depth of your work with
+          AI. Get your ideas across better, and faster. Find people to innovate
+          with.
         </p>
         {/* <a
           className={styles.cta_link}

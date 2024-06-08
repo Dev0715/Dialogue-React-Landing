@@ -16,14 +16,14 @@ const Services = () => {
       title:
         "Halve the time needed to communicate and illustrate your thoughts",
       description:
-        "Dialogue integrates and analyses your knowledge bases. Informing relevant text editing suggestions. And creative directions to bring your work alive with personalized imagery.",
+        "Dialogue integrates and analyses your knowledge bases. Bring your work to life with personalized editing suggestions and AI generated visual content.",
     },
     {
       src: "/images/interactive-knowledge.svg",
       image_description: "Interactive knowledge network graphs",
       title: "Find people with complimentary skillsets and expertise",
       description:
-        "Dialogue surface unforeseen connections between ideas. Learn what others have to say about subjects your interested in. Never loose sight of the big picture.",
+        "Dialogue surfaces unforeseen connections between ideas. Learn what others have to say about subjects your interested in. Never loose sight of the big picture.",
     },
   ];
 
