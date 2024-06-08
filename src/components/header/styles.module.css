@@ -72,18 +72,17 @@
   border-radius: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .header {
-    top: 60px;
-    box-sizing: border-box;
+    top: 24px;
     padding: 0px 24px 0px 24px;
+    box-sizing: border-box;
   }
 
   .wrapper {
-    box-sizing: border-box;
-    justify-content: space-between;
     width: 100%;
     padding: 4px;
+    justify-content: space-between;
   }
 
   .logo_wrapper {
@@ -91,11 +90,6 @@
   }
 
   .logo_text {
-    font-size: 16px;
-    line-height: 32px;
-  }
-
-  .menu_item {
     display: none;
   }
 
@@ -103,8 +97,7 @@
     display: none;
   }
 
-  .menu_cta {
-    display: block;
+  .menu_item {
     font-size: 14px;
     font-weight: 500;
     line-height: 40px;
