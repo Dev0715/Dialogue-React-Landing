@@ -4,7 +4,16 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.logo_wrapper}>
-        <img src="/images/logo.svg" alt="logo" />
+        <img
+          className={styles.logo_desktop}
+          src="/images/logo.svg"
+          alt="logo"
+        />
+        <img
+          className={styles.logo_mobile}
+          src="/images/logo_mobile.svg"
+          alt="logo"
+        />
         <p className={styles.logo_text}>Dialogue</p>
       </div>
       <p className={styles.description}>
