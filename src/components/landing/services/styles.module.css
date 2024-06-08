@@ -1,0 +1,13 @@
+.services {
+  margin: 80px 0px 148px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+@media screen and (max-width: 640px) {
+  .services {
+    margin: 40px 0 80px 0;
+    gap: 40px;
+  }
+}

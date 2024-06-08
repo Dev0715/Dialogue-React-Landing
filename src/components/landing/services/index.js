@@ -4,14 +4,14 @@ import Service from "./service";
 const Services = () => {
   const services = [
     {
-      src: "/images/information-resolution.png",
+      src: "/images/information-resolution.svg",
       image_description: "Information resolution scaling",
       title: "Get to the story behind the story in the blink of an eye",
       description:
         "Dialogue presents information across Views. Instantly surface section summaries, core ideas and references. Get faster to what you find interesting.",
     },
     {
-      src: "/images/conversational.png",
+      src: "/images/conversational.svg",
       image_description: "Conversational text editing & image creation",
       title:
         "Halve the time needed to communicate and illustrate your thoughts",
@@ -19,7 +19,7 @@ const Services = () => {
         "Dialogue integrates and analyses your knowledge bases. Informing relevant text editing suggestions. And creative directions to bring your work alive with personalized imagery.",
     },
     {
-      src: "/images/interactive-knowledge.png",
+      src: "/images/interactive-knowledge.svg",
       image_description: "Interactive knowledge network graphs",
       title: "Find people with complimentary skillsets and expertise",
       description:
@@ -28,7 +28,7 @@ const Services = () => {
   ];
 
   return (
-    <div className={styles.service_wrapper}>
+    <div className={styles.services}>
       {services.map((item, index) => (
         <Service
           key={index}
