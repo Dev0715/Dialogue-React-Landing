@@ -1,8 +1,8 @@
-import Perspective from "../perspective";
+import Feature from "../feature";
 import styles from "./styles.module.css";
 
-const Finisher = () => {
-  const perspectives = [
+const Features = () => {
+  const features = [
     {
       title: "Generative presentations",
       description:
@@ -50,8 +50,8 @@ const Finisher = () => {
         </div>
       </div>
       <div className={styles.perspective_wrapper}>
-        {perspectives.map((item, index) => (
-          <Perspective
+        {features.map((item, index) => (
+          <Feature
             key={index}
             title={item.title}
             description={item.description}
@@ -62,4 +62,4 @@ const Finisher = () => {
   );
 };
 
-export default Finisher;
+export default Features;

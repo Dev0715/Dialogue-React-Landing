@@ -1,4 +1,4 @@
-import Finisher from "../components/landing/finisher";
+import Features from "../components/landing/features";
 import LandingHero from "../components/landing/hero";
 import Service from "../components/landing/service";
 import styles from "./styles.module.css";
@@ -43,7 +43,7 @@ const LandingPage = () => {
           />
         ))}
       </div>
-      <Finisher />
+      <Features />
     </div>
   );
 };

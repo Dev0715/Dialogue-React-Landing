@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 
-const Perspective = ({ title, description }) => {
+const Feature = ({ title, description }) => {
   return (
     <div className={styles.container}>
       <p className={styles.title}>{title}</p>
@@ -9,4 +9,4 @@ const Perspective = ({ title, description }) => {
   );
 };
 
-export default Perspective;
+export default Feature;
