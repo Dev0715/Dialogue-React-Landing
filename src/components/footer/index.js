@@ -16,9 +16,11 @@ const Footer = () => {
         />
         <p className={styles.logo_text}>Dialogue</p>
       </div>
-      <p className={styles.description}>
-        A new standard for academic and creative expression
-      </p>
+      <div className={styles.description_wrapper}>
+        <p className={styles.description}>
+          A new standard for academic and creative expression
+        </p>
+      </div>
       <p className={styles.description}>Designed with love by Objects.cx</p>
     </div>
   );
