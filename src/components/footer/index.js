@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.footer}>
       <div className={styles.logo_wrapper}>
         <img src="/images/logo.svg" alt="logo" />
         <p className={styles.logo_text}>Dialogue</p>

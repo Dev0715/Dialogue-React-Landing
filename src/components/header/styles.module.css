@@ -1,4 +1,4 @@
-.container {
+.header {
   z-index: 50;
   position: fixed;
   top: 48px;
@@ -30,14 +30,14 @@
   font-size: 22px;
   line-height: 40px;
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.22px;
   text-align: left;
 }
 
 .splitter_vertical {
   height: 100%;
   width: 1px;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 22px 0px 0px;
   background-color: #D8D8D8;
 }
 
@@ -58,7 +58,7 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 40px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.16px;
   text-align: left;
 }
 
@@ -73,7 +73,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  .header {
     top: 60px;
     box-sizing: border-box;
     padding: 0px 24px 0px 24px;

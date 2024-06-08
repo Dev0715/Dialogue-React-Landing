@@ -5,7 +5,7 @@ const about_url = "https://objects.cx/Dialogue";
 
 const Header = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.header}>
       <div className={styles.wrapper}>
         <div className={styles.logo_wrapper}>
           <img src="/images/logo.svg" alt="logo" />
