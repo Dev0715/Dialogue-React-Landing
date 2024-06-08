@@ -116,9 +116,13 @@
   }
 
   .title {
-    max-width: 1024px;
+    max-width: 968px;
     font-size: 68px;
     line-height: 76px;
+  }
+
+  .description {
+    max-width: 968px;
   }
 }
 
@@ -132,12 +136,13 @@
   }
 
   .title {
-    max-width: 768px;
+    max-width: 712px;
     font-size: 56px;
     line-height: 64px;
   }
   
   .description {
+    max-width: 712px;
     font-size: 24px;
     line-height: 40px;
   }
@@ -159,7 +164,7 @@
   }
 
   .title {
-    max-width: 640px;
+    max-width: 600px;
     font-size: 44px;
     line-height: 56px;
   }
@@ -177,8 +182,12 @@
 }
 
 @media screen and (max-width: 640px){
+  .hero {
+    margin-bottom: 40px;
+  }
+
   .image_wrapper {
-    height: 270px;
+    height: 269px;
   }
 
   .image {
@@ -188,8 +197,9 @@
   }
 
   .content_wrapper {
-    margin-top: -30px;
+    margin-top: -28px;
     padding: 0 24px 0px 24px;
+    gap: 16px;
   }
 
   .title {
@@ -199,8 +209,9 @@
   }
   
   .description {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.16px;
   }
   
   /* .cta_wrapper {

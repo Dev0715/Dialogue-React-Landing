@@ -49,9 +49,8 @@
 }
 
 @media screen and (max-width: 640px){
-  .service {
-    padding: 0 24px 0 24px;
-    box-sizing: border-box;
+  .splitter {
+    margin-bottom: 16px;
   }
 
   .image {
@@ -66,12 +65,16 @@
   }
 
   .title {
+    padding: 0 24px 0 24px;
     font-size: 24px;
     line-height: 32px;
+    letter-spacing: 0.24px;
   }
 
   .description {
+    padding: 0 24px 0 24px;
     font-size: 16px;
     line-height: 28px;
+    letter-spacing: 0.16px;
   }
 }
