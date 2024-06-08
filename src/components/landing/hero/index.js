@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 const LandingHero = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.hero}>
       <div className={styles.image_wrapper}>
         <img
           className={styles.image}
