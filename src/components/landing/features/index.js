@@ -1,4 +1,4 @@
-import Feature from "../feature";
+import Feature from "./feature";
 import styles from "./styles.module.css";
 
 const Features = () => {

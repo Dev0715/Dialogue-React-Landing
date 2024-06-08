@@ -1,4 +1,4 @@
-import { demo_url } from "../../header";
+// import { demo_url } from "../../header";
 import styles from "./styles.module.css";
 
 const LandingHero = () => {
@@ -7,7 +7,7 @@ const LandingHero = () => {
       <div className={styles.image_wrapper}>
         <img
           className={styles.image}
-          src="/images/hero-background.png"
+          src="/images/hero-background.svg"
           alt="hero-background"
         />
         <div className={styles.gradient_layer_left}></div>
@@ -22,7 +22,7 @@ const LandingHero = () => {
           Document the breadth and depth of your work with AI. Get your ideas
           across better, and faster.
         </p>
-        <a
+        {/* <a
           className={styles.cta_link}
           href={demo_url}
           target="_blank"
@@ -31,7 +31,7 @@ const LandingHero = () => {
           <div className={styles.cta_wrapper}>
             <div className={styles.cta_button}>Request a demo</div>
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
