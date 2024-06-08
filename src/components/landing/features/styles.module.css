@@ -1,23 +1,24 @@
-.wrapper {
+.features {
   width: 100%;
-  display: flex;
-  padding: 160px 84px 160px 84px;
+  padding: 0px 84px 0px 84px;
   box-sizing: border-box;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  background: radial-gradient(95.8% 95.8% at 50.13% -81.92%, #999999 0%, #FFFFFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 }
 
 .logo_wrapper {
   position: relative;
   width: 100%;
-  margin-bottom: 160px;
+  padding: 111px 0 111px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(95.8% 95.8% at 50.13% -81.92%, #999 0%, #FFF 100%);
 }
 
 .image {
   width: auto;
   height: 474px;
-  box-sizing: border-box;
 }
 
 .title_wrapper {
@@ -38,19 +39,18 @@
   line-height: 56px;
   letter-spacing: -0.4px;
   text-align: center;
-  background: radial-gradient(118.5% 772.61% at 45.66% 117.9%, #7C7C7C 0%, #666666 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(772.83% 213.88% at 45.66% 117.9%, #7C7C7C 0%, #666 100%);
   background-clip: text;
   color: transparent;
 }
 
-.perspective_wrapper {
+.features_wrapper {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1024px) {
-  .wrapper {
+  .features {
     padding: 120px 64px 120px 64px;
   }
 
@@ -60,7 +60,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .wrapper {
+  .features {
     padding: 80px 0px 60px 0px;
   }
 
