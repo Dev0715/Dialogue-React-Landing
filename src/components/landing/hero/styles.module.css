@@ -57,13 +57,26 @@
 }
 
 .title {
-  max-width: 1440px;
+  max-width: 1368px;
   font-weight: 400;
-  font-size: 80px;
-  line-height: 88px;
+  font-size: 72px;
+  line-height: 80px;
   letter-spacing: -0.72px;
   text-align: center;
+  background: radial-gradient(395.86% 242.68% at 75.02% 254.55%, #A8A8A8 0%, #666 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.title_mobile {
+  display: none;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.32px;
+  text-align: center;
   background: radial-gradient(52.48% 330.16% at 75.02% 254.55%, #A8A8A8 0%, #666 100%);
+  background-clip: text;
   background-clip: text;
   color: transparent;
 }
@@ -203,9 +216,11 @@
   }
 
   .title {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.32px;
+    display: none;
+  }
+
+  .title_mobile {
+    display: block;
   }
   
   .description {

@@ -16,12 +16,14 @@ const LandingHero = () => {
       </div>
       <div className={styles.content_wrapper}>
         <p className={styles.title}>
+          Dialogue is a new standard for academic and creative expression
+        </p>
+        <p className={styles.title_mobile}>
           A new standard for academic and creative expression
         </p>
         <p className={styles.description}>
           Dialogue helps you document the breadth and depth of your work with
-          AI. Get your ideas across better, and faster. Find people to innovate
-          with.
+          AI. Get your ideas across faster and find people to innovate with.
         </p>
         {/* <a
           className={styles.cta_link}
