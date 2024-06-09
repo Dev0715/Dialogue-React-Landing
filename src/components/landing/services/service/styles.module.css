@@ -24,8 +24,12 @@
   /* margin-bottom: 40px; */
 }
 
-.image {
+.image_desktop {
   margin-bottom: 14px;
+}
+
+.image_mobile {
+  display: none;
 }
 
 .image_description {
@@ -73,7 +77,12 @@
     /* margin-bottom: 16px; */
   }
 
-  .image {
+  .image_desktop {
+    display: none;
+  }
+
+  .image_mobile {
+    display: block;
     width: auto;
     height: 340px;
   }
