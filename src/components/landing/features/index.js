@@ -29,7 +29,7 @@ const Features = () => {
     },
     {
       image: "/images/features/feature-5.svg",
-      title: "Multi-lingual support",
+      title: "Multilingual support",
       description:
         "Automatically translate your documents with accuracy. Refine each translation for cultural relevance and clarity.",
     },
