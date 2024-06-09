@@ -21,7 +21,7 @@ const Services = () => {
     {
       src: "/images/interactive-knowledge.png",
       image_description: "Interactive knowledge network graphs",
-      title: "Find people with complimentary skillsets and expertise",
+      title: "Find people with complementary skillsets and expertise",
       description:
         "Dialogue surfaces unforeseen connections between ideas. Learn what others have to say about subjects you're interested in. Never loose sight of the big picture.",
     },
