@@ -13,7 +13,7 @@ const Features = () => {
       image: "/images/features/feature-2.svg",
       title: "Layout optimization",
       description:
-        "Build an effective document structure with minimal effort. Choose from relevant AI suggestion, and deliver your thoughts with precision.",
+        "Build an effective document structure with minimal effort. Choose from relevant AI suggestions, and deliver your thoughts with precision.",
     },
     {
       image: "/images/features/feature-3.svg",
@@ -35,9 +35,9 @@ const Features = () => {
     },
     {
       image: "/images/features/feature-6.svg",
-      title: "Knowledge vault",
+      title: "Knowledge galaxy",
       description:
-        "Build a a space for resources that supports your ongoing and future projects. Easily secure, store, and retrieve your projects data at any time",
+        "Build a a space for resources that supports your ongoing and future projects. Easily secure, store, and retrieve your projects data at any time.",
     },
   ];
 
