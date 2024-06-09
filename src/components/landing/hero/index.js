@@ -16,7 +16,7 @@ const LandingHero = () => {
       </div>
       <div className={styles.content_wrapper}>
         <p className={styles.title}>
-          Dialogue is a new standard for academic and creative expression
+          Dialogue is the new standard for academic and creative expression
         </p>
         <p className={styles.title_mobile}>
           Dialogue is a new standard for academic and creative expression

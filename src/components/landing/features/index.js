@@ -7,7 +7,7 @@ const Features = () => {
       image: "/images/features/feature-1.svg",
       title: "Generative presentations",
       description:
-        "Package and share your thoughts in digestible formats. Generate first drafts in one click, and refine the output as you go.",
+        "Package and share your thoughts in digestible formats. Generate first drafts in one click, and refine the output page by page as you go.",
     },
     {
       image: "/images/features/feature-2.svg",
